@@ -1,0 +1,391 @@
+Archive member included because of file (symbol)
+
+d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00681.o)
+                              DriverMinGW.o (__imp_IofCompleteRequest)
+d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00115.o)
+                              DriverMinGW.o (__imp_ExAllocatePool)
+d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01372.o)
+                              DriverMinGW.o (__imp_RtlCopyUnicodeString)
+d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01477.o)
+                              DriverMinGW.o (__imp_RtlInitUnicodeString)
+d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00467.o)
+                              DriverMinGW.o (__imp_IoCreateDevice)
+d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00477.o)
+                              DriverMinGW.o (__imp_IoCreateSymbolicLink)
+d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00488.o)
+                              DriverMinGW.o (__imp_IoDeleteDevice)
+d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01442.o)
+                              DriverMinGW.o (__imp_RtlFreeUnicodeString)
+d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00490.o)
+                              DriverMinGW.o (__imp_IoDeleteSymbolicLink)
+d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00065.o)
+                              DriverMinGW.o (DbgPrint)
+d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies02066.o)
+                              DriverMinGW.o (memcpy)
+d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dieh.o)
+                              d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00681.o) (_head_lib64_libntoskrnl_a)
+d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(diet.o)
+                              d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dieh.o) (__lib64_libntoskrnl_a_iname)
+
+Allocating common symbols
+Common symbol       size              file
+
+dosDevicesName      0x10              DriverMinGW.o
+registryPath        0x10              DriverMinGW.o
+deviceName          0x10              DriverMinGW.o
+fdo                 0x8               DriverMinGW.o
+
+Discarded input sections
+
+ .drectve       0x0000000000000000       0x68 DriverMinGW.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000010000                __image_base__ = 0x10000
+                0x0000000000000000                __dll__ = 0x0
+                0x0000000000010000                __ImageBase = 0x10000
+                0x0000000000001000                __section_alignment__ = 0x1000
+                0x0000000000001000                __file_alignment__ = 0x1000
+                0x0000000000000004                __major_os_version__ = 0x4
+                0x0000000000000000                __minor_os_version__ = 0x0
+                0x0000000000000000                __major_image_version__ = 0x0
+                0x0000000000000000                __minor_image_version__ = 0x0
+                0x0000000000000005                __major_subsystem_version__ = 0x5
+                0x0000000000000002                __minor_subsystem_version__ = 0x2
+                0x0000000000000001                __subsystem__ = 0x1
+                0x0000000000040000                __size_of_stack_reserve__ = 0x40000
+                0x0000000000001000                __size_of_stack_commit__ = 0x1000
+                0x0000000000100000                __size_of_heap_reserve__ = 0x100000
+                0x0000000000001000                __size_of_heap_commit__ = 0x1000
+                0x0000000000000000                __loader_flags__ = 0x0
+                0x0000000000000140                __dll_characteristics__ = 0x140
+LOAD DriverMinGW.o
+LOAD d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a
+LOAD d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libhal.a
+                0x00000000000002c8                . = SIZEOF_HEADERS
+                0x0000000000001000                . = ALIGN (__section_alignment__)
+
+.text           0x0000000000011000     0x1000
+ *(.init)
+ *(.text)
+ .text          0x0000000000011000      0x4c0 DriverMinGW.o
+                0x0000000000011219                DriverEntry@8
+                0x0000000000011219                DriverEntry
+                0x000000000001145f                UnloadRoutine
+ .text          0x00000000000114c0        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00681.o)
+                0x00000000000114c0                IofCompleteRequest
+ .text          0x00000000000114c8        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00115.o)
+                0x00000000000114c8                ExAllocatePool
+ .text          0x00000000000114d0        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01372.o)
+                0x00000000000114d0                RtlCopyUnicodeString
+ .text          0x00000000000114d8        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01477.o)
+                0x00000000000114d8                RtlInitUnicodeString
+ .text          0x00000000000114e0        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00467.o)
+                0x00000000000114e0                IoCreateDevice
+ .text          0x00000000000114e8        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00477.o)
+                0x00000000000114e8                IoCreateSymbolicLink
+ .text          0x00000000000114f0        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00488.o)
+                0x00000000000114f0                IoDeleteDevice
+ .text          0x00000000000114f8        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01442.o)
+                0x00000000000114f8                RtlFreeUnicodeString
+ .text          0x0000000000011500        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00490.o)
+                0x0000000000011500                IoDeleteSymbolicLink
+ .text          0x0000000000011508        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00065.o)
+                0x0000000000011508                DbgPrint
+ .text          0x0000000000011510        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies02066.o)
+                0x0000000000011510                memcpy
+ *fill*         0x0000000000011518        0x8 
+ .text          0x0000000000011520        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dieh.o)
+ .text          0x0000000000011520        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(diet.o)
+ *(SORT(.text$*))
+ *(.text.*)
+ *(.gnu.linkonce.t.*)
+ *(.glue_7t)
+ *(.glue_7)
+                0x0000000000011520                . = ALIGN (0x8)
+                0x0000000000011520                ___CTOR_LIST__ = .
+                0x0000000000011520                __CTOR_LIST__ = .
+                0x0000000000011520        0x4 LONG 0xffffffffffffffff
+                0x0000000000011524        0x4 LONG 0xffffffffffffffff
+ *(.ctors)
+ *(.ctor)
+ *(SORT(.ctors.*))
+                0x0000000000011528        0x4 LONG 0x0
+                0x000000000001152c        0x4 LONG 0x0
+                0x0000000000011530                ___DTOR_LIST__ = .
+                0x0000000000011530                __DTOR_LIST__ = .
+                0x0000000000011530        0x4 LONG 0xffffffffffffffff
+                0x0000000000011534        0x4 LONG 0xffffffffffffffff
+ *(.dtors)
+ *(.dtor)
+ *(SORT(.dtors.*))
+                0x0000000000011538        0x4 LONG 0x0
+                0x000000000001153c        0x4 LONG 0x0
+ *(.fini)
+ *(.gcc_exc)
+                0x0000000000011540                PROVIDE (etext, .)
+ *(.gcc_except_table)
+
+.data           0x0000000000012000        0x0
+                0x0000000000012000                __data_start__ = .
+ *(.data)
+ .data          0x0000000000012000        0x0 DriverMinGW.o
+ .data          0x0000000000012000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00681.o)
+ .data          0x0000000000012000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00115.o)
+ .data          0x0000000000012000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01372.o)
+ .data          0x0000000000012000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01477.o)
+ .data          0x0000000000012000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00467.o)
+ .data          0x0000000000012000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00477.o)
+ .data          0x0000000000012000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00488.o)
+ .data          0x0000000000012000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01442.o)
+ .data          0x0000000000012000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00490.o)
+ .data          0x0000000000012000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00065.o)
+ .data          0x0000000000012000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies02066.o)
+ .data          0x0000000000012000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dieh.o)
+ .data          0x0000000000012000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(diet.o)
+ *(.data2)
+ *(SORT(.data$*))
+ *(.jcr)
+                0x0000000000012000                __data_end__ = .
+ *(.data_cygwin_nocopy)
+
+.rdata          0x0000000000012000     0x1000
+ *(.rdata)
+ .rdata         0x0000000000012000      0x220 DriverMinGW.o
+ *(SORT(.rdata$*))
+ .rdata$zzz     0x0000000000012220       0x30 DriverMinGW.o
+                0x0000000000012250                __rt_psrelocs_start = .
+ *(.rdata_runtime_pseudo_reloc)
+                0x0000000000012250                __rt_psrelocs_end = .
+                0x0000000000000000                __rt_psrelocs_size = (__rt_psrelocs_end - __rt_psrelocs_start)
+                0x0000000000012250                ___RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x0000000000012250                __RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x0000000000012250                ___RUNTIME_PSEUDO_RELOC_LIST__ = (. - __rt_psrelocs_size)
+                0x0000000000012250                __RUNTIME_PSEUDO_RELOC_LIST__ = (. - __rt_psrelocs_size)
+
+.eh_frame
+ *(.eh_frame*)
+
+.pdata          0x0000000000013000     0x1000
+ *(.pdata*)
+ .pdata         0x0000000000013000       0x30 DriverMinGW.o
+
+.xdata          0x0000000000014000     0x1000
+ *(.xdata*)
+ .xdata         0x0000000000014000       0x30 DriverMinGW.o
+
+.bss            0x0000000000015000       0x38
+                0x0000000000015000                __bss_start__ = .
+ *(.bss)
+ .bss           0x0000000000015000        0x0 DriverMinGW.o
+ .bss           0x0000000000015000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00681.o)
+ .bss           0x0000000000015000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00115.o)
+ .bss           0x0000000000015000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01372.o)
+ .bss           0x0000000000015000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01477.o)
+ .bss           0x0000000000015000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00467.o)
+ .bss           0x0000000000015000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00477.o)
+ .bss           0x0000000000015000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00488.o)
+ .bss           0x0000000000015000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01442.o)
+ .bss           0x0000000000015000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00490.o)
+ .bss           0x0000000000015000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00065.o)
+ .bss           0x0000000000015000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies02066.o)
+ .bss           0x0000000000015000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dieh.o)
+ .bss           0x0000000000015000        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(diet.o)
+ *(COMMON)
+ COMMON         0x0000000000015000       0x38 DriverMinGW.o
+                0x0000000000015000                dosDevicesName
+                0x0000000000015010                registryPath
+                0x0000000000015020                deviceName
+                0x0000000000015030                fdo
+                0x0000000000015038                __bss_end__ = .
+
+.edata          0x0000000000016000     0x1000
+ *(.edata)
+ .edata         0x0000000000016000       0xb9 dll stuff
+
+/DISCARD/
+ *(.debug$S)
+ *(.debug$T)
+ *(.debug$F)
+ *(.drectve)
+ *(.note.GNU-stack)
+ *(.gnu.lto_*)
+
+.idata          0x0000000000017000     0x1000
+ SORT(*)(.idata$2)
+ .idata$2       0x0000000000017000       0x14 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dieh.o)
+                0x0000000000017000                _head_lib64_libntoskrnl_a
+ SORT(*)(.idata$3)
+                0x0000000000017014        0x4 LONG 0x0
+                0x0000000000017018        0x4 LONG 0x0
+                0x000000000001701c        0x4 LONG 0x0
+                0x0000000000017020        0x4 LONG 0x0
+                0x0000000000017024        0x4 LONG 0x0
+ SORT(*)(.idata$4)
+ .idata$4       0x0000000000017028        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dieh.o)
+ .idata$4       0x0000000000017028        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00065.o)
+ .idata$4       0x0000000000017030        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00115.o)
+ .idata$4       0x0000000000017038        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00467.o)
+ .idata$4       0x0000000000017040        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00477.o)
+ .idata$4       0x0000000000017048        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00488.o)
+ .idata$4       0x0000000000017050        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00490.o)
+ .idata$4       0x0000000000017058        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00681.o)
+ .idata$4       0x0000000000017060        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01372.o)
+ .idata$4       0x0000000000017068        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01442.o)
+ .idata$4       0x0000000000017070        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01477.o)
+ .idata$4       0x0000000000017078        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies02066.o)
+ .idata$4       0x0000000000017080        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(diet.o)
+                0x0000000000017088                __IAT_start__ = .
+ SORT(*)(.idata$5)
+ .idata$5       0x0000000000017088        0x0 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dieh.o)
+ .idata$5       0x0000000000017088        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00065.o)
+                0x0000000000017088                __imp_DbgPrint
+ .idata$5       0x0000000000017090        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00115.o)
+                0x0000000000017090                __imp_ExAllocatePool
+ .idata$5       0x0000000000017098        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00467.o)
+                0x0000000000017098                __imp_IoCreateDevice
+ .idata$5       0x00000000000170a0        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00477.o)
+                0x00000000000170a0                __imp_IoCreateSymbolicLink
+ .idata$5       0x00000000000170a8        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00488.o)
+                0x00000000000170a8                __imp_IoDeleteDevice
+ .idata$5       0x00000000000170b0        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00490.o)
+                0x00000000000170b0                __imp_IoDeleteSymbolicLink
+ .idata$5       0x00000000000170b8        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00681.o)
+                0x00000000000170b8                __imp_IofCompleteRequest
+ .idata$5       0x00000000000170c0        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01372.o)
+                0x00000000000170c0                __imp_RtlCopyUnicodeString
+ .idata$5       0x00000000000170c8        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01442.o)
+                0x00000000000170c8                __imp_RtlFreeUnicodeString
+ .idata$5       0x00000000000170d0        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01477.o)
+                0x00000000000170d0                __imp_RtlInitUnicodeString
+ .idata$5       0x00000000000170d8        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies02066.o)
+                0x00000000000170d8                __imp_memcpy
+ .idata$5       0x00000000000170e0        0x8 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(diet.o)
+                0x00000000000170e8                __IAT_end__ = .
+ SORT(*)(.idata$6)
+ .idata$6       0x00000000000170e8        0xc d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00065.o)
+ .idata$6       0x00000000000170f4       0x12 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00115.o)
+ .idata$6       0x0000000000017106       0x12 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00467.o)
+ .idata$6       0x0000000000017118       0x18 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00477.o)
+ .idata$6       0x0000000000017130       0x12 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00488.o)
+ .idata$6       0x0000000000017142       0x18 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00490.o)
+ .idata$6       0x000000000001715a       0x16 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00681.o)
+ .idata$6       0x0000000000017170       0x18 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01372.o)
+ .idata$6       0x0000000000017188       0x18 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01442.o)
+ .idata$6       0x00000000000171a0       0x18 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01477.o)
+ .idata$6       0x00000000000171b8        0xa d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies02066.o)
+ SORT(*)(.idata$7)
+ *fill*         0x00000000000171c2        0x2 
+ .idata$7       0x00000000000171c4        0x4 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00065.o)
+ .idata$7       0x00000000000171c8        0x4 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00115.o)
+ .idata$7       0x00000000000171cc        0x4 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00467.o)
+ .idata$7       0x00000000000171d0        0x4 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00477.o)
+ .idata$7       0x00000000000171d4        0x4 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00488.o)
+ .idata$7       0x00000000000171d8        0x4 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00490.o)
+ .idata$7       0x00000000000171dc        0x4 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies00681.o)
+ .idata$7       0x00000000000171e0        0x4 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01372.o)
+ .idata$7       0x00000000000171e4        0x4 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01442.o)
+ .idata$7       0x00000000000171e8        0x4 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies01477.o)
+ .idata$7       0x00000000000171ec        0x4 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(dies02066.o)
+ .idata$7       0x00000000000171f0       0x10 d:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/4.8.1/../../../../x86_64-w64-mingw32/lib/../lib/libntoskrnl.a(diet.o)
+                0x00000000000171f0                __lib64_libntoskrnl_a_iname
+
+.CRT            0x0000000000018000        0x0
+                0x0000000000018000                ___crt_xc_start__ = .
+ *(SORT(.CRT$XC*))
+                0x0000000000018000                ___crt_xc_end__ = .
+                0x0000000000018000                ___crt_xi_start__ = .
+ *(SORT(.CRT$XI*))
+                0x0000000000018000                ___crt_xi_end__ = .
+                0x0000000000018000                ___crt_xl_start__ = .
+ *(SORT(.CRT$XL*))
+                0x0000000000018000                ___crt_xp_start__ = .
+ *(SORT(.CRT$XP*))
+                0x0000000000018000                ___crt_xp_end__ = .
+                0x0000000000018000                ___crt_xt_start__ = .
+ *(SORT(.CRT$XT*))
+                0x0000000000018000                ___crt_xt_end__ = .
+
+.tls            0x0000000000018000        0x0
+                0x0000000000018000                ___tls_start__ = .
+ *(.tls)
+ *(.tls$)
+ *(SORT(.tls$*))
+                0x0000000000018000                ___tls_end__ = .
+
+.endjunk        0x0000000000018000        0x0
+                0x0000000000018000                PROVIDE (end, .)
+                0x0000000000018000                PROVIDE (_end, .)
+                0x0000000000018000                __end__ = .
+
+.rsrc
+ *(.rsrc)
+ *(SORT(.rsrc$*))
+
+.reloc          0x0000000000018000        0x0
+ *(.reloc)
+ .reloc         0x0000000000018000        0x0 dll stuff
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame*)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_types
+ *(.debug_types .gnu.linkonce.wt.*)
+OUTPUT(DriverMinGW.sys pei-x86-64)
+LOAD dll stuff

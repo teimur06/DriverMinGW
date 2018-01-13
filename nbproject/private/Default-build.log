@@ -1,0 +1,23 @@
+cmd //C del DriverMinGW.o DriverMinGW.sys
+?? ????? ???? D:\Project\DriverMinGW\DriverMinGW.o
+gcc -I D:\mingw64\x86_64-w64-mingw32\include\ddk -Wall -m64 -shared -c DriverMinGW.c -o DriverMinGW.o \
+	-Wl,--subsystem,native \
+	-Wl,--image-base,0x10000 \
+	-Wl,--file-alignment,0x1000 \
+	-Wl,--section-alignment,0x1000 \
+	-Wl,--entry,DriverEntry@8 \
+	-Wl,--stack,0x40000 \
+	-Wl,--dynamicbase \
+	-Wl,--nxcompat \
+	-nostartfiles -nostdlib \
+	-lntoskrnl -lhal
+gcc -I D:\mingw64\x86_64-w64-mingw32\include\ddk -Wall -m64 -shared -Wl,--subsystem,native \
+	-Wl,--image-base,0x10000 \
+	-Wl,--file-alignment,0x1000 \
+	-Wl,--section-alignment,0x1000 \
+	-Wl,--entry,DriverEntry@8 \
+	-Wl,--stack,0x40000 \
+	-Wl,--dynamicbase \
+	-Wl,--nxcompat \
+	-nostartfiles -nostdlib -o DriverMinGW.sys \
+	DriverMinGW.o -lntoskrnl -lhal
